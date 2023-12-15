@@ -1,0 +1,391 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  html,
+  body,
+  div {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    background: linear-gradient(rgb(240, 248, 255), rgb(242, 246, 248));
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+  li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  span {
+    color: orange;
+   }
+
+   h1,
+   h2,
+   h3,
+   .tel,
+   .time {
+    font-family: 'Kalnia', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+   }
+
+  /******************************************
+  /* HEADER 
+  /*******************************************/  
+  
+
+    .mainBackImg {
+        background: url(/class08-materials/bckgrnd\ img\ rest.png) no-repeat top 10% left 100%;
+        background-size: 60%;
+        overflow: hidden;
+    }
+
+    header {
+        padding-bottom: 5%;
+        width: 100%;
+    }
+    header li{
+        float: left;
+        list-style-type: none; 
+        width: ma-content;
+    }
+
+    header .logo {
+        padding-right: 50%;
+    }
+    header li a {
+        padding-right: 2em;     
+    }
+    
+    header img {
+        width: 20px;
+    }
+
+   
+
+  /******************************************
+  /* Main
+  /*******************************************/
+
+  
+    main {
+        margin: 5%;
+        clear: both;
+        width: 50%;
+    }
+    main h1 {
+        font-size: 5em;
+        font-weight: 600;
+        width: 100% ;  
+    }
+
+    main form {
+        display: inline-block;
+        margin-right: -10%;
+    }
+
+    main button, 
+    main input {
+        border: none;
+        padding: 10px;
+    }
+
+    main input {
+        border-radius: 1em;
+    }
+
+    main button {
+        border-radius: 0 1em 1em 0;
+    }
+    
+    main input {
+        width: 100%;
+        padding-right: 400px;
+        color: orange;
+    }
+
+    
+    main button {
+        background-color: orange;
+        color: white;
+    }
+
+    
+    main li {
+        float: left;
+        list-style: none;
+        width: 30%;
+    }
+    main li img {
+        width: 10%;
+        padding: 0;
+        margin: 0;
+    }
+  
+  /******************************************
+  /* SECTIONS
+  /*******************************************/
+    
+    .section1 {
+        width: 100%;
+        height: 100%;
+        background: url(/class08-materials/homework-layout-photos/pie.png) no-repeat top -5px right 750px, url(https://www.aicr.org/wp-content/uploads/2020/02/strawberries-fresh-strawberry-oatmeal-90894.jpg) no-repeat top -5px left 750px;    
+        background-size: 100%;
+    }
+
+    .section1 button {
+        background-color: orange;
+        border: none;
+        color: white;
+        padding: 1em;
+        border-radius: 1em;
+    }
+
+    .discover {
+        width: 35%;
+        margin-left: 45%;
+        padding-top: 10%;
+    }
+
+    .section1 h3 {
+            font-size: 3em;
+            font-weight: 600;
+            width: 100% ;  
+            margin-top: 1rem;
+    }
+
+    .discover p {
+        text-align:justify;
+        line-height: 2;
+    }
+
+   /*section for menu*/
+
+   .order {
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+   }
+
+   .tabs {
+        margin-left: 21%;
+   }
+   
+   .tabs li {
+        float: left;
+        list-style-type: none;
+        padding: 3em 3em 2em;
+        border-bottom: 1px solid gray;
+   }
+
+   .tabs a:hover {
+        color: orange;       
+    }
+
+    .tabs li:hover {
+        border-bottom: 3px solid orange; 
+    }
+
+   .order h2 {
+        font-size: 4em;
+        font-weight: 600;
+        width: 100% ;  
+        margin-top: 1rem;
+    }
+
+   
+
+   /*section for menu photos*/
+
+   .order {
+    height:min-content;
+   }
+
+   .orderPhotos {
+        clear: both;
+        width: 100%;
+        height: 60%;
+    }
+
+   .orderPhotos ul {
+        width: 100%;
+        height: 50%;
+    }
+   
+   .orderPhotos li {
+        float: left;
+        list-style: none;
+        margin-top: 3rem;
+        width: 24%;
+        height: 100%;
+        margin-right: .5em;
+   }
+
+    .order1 {
+        background: url(https://healthyfitnessmeals.com/wp-content/uploads/2021/06/Shrimp-burrito-bowl-4.jpg) no-repeat;
+        background-size: 100%;
+    }
+
+    .order2 {
+        background: url(//www.twopeasandtheirpod.com/wp-content/uploads/2022/10/Beet-Salad-11.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .order3 {
+        background: url(https://www.dontgobaconmyheart.co.uk/wp-content/uploads/2022/05/avocado-egg-toast.jpg) no-repeat;
+        background-size: cover;
+
+    }
+    .order4 {
+        background: url(https://www.2foodtrippers.com/wp-content/uploads/2020/05/Avocado-Egg-Toast-with-Chili-Crisp-Close-Up.jpg.webp) no-repeat;
+        background-size: cover;
+
+    }
+
+   
+
+ /*HOURS SECTION*/
+   
+    .hours {
+        clear: both;
+        text-align: center;
+        margin: 0 10rem 0;
+        height: 100%;
+        padding: 5rem 0 10rem ;
+    }
+
+    .background {
+        background: url(https://img.freepik.com/premium-photo/top-view-hot-coffee-with-latte-art-white-cup-saucer-white-table-cafe_43538-69.jpg) no-repeat; 
+        background-size: cover;       
+    }
+  
+    .hours h2 {
+        font-size: 4em;
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+
+    .hours ul {
+        padding: 0;
+        width: 100%;
+    }
+
+    .hours li {
+        list-style: none;
+    }
+
+    .hours .tel {
+        color: orange;
+        font-size: xx-large;
+        font-weight: 600;
+    }
+
+    .call li {
+        line-height: 2;
+    }
+
+    .call img {
+        width: 5%;
+    }
+
+    .hours video {
+        width: 50%;
+        height: 50%;
+        margin: 3em 0;
+    }
+
+    .daysOpen span{
+        color: black;
+    }
+
+    .daysOpen1 {
+        float: left;
+    }
+
+    .daysOpen2 {
+        float: right;
+    }
+
+    .daysOpen .time {
+        font-size: larger;
+        font-weight: 600;
+    }
+/*creates "opacity" look on image background w/o affecting text color*/
+    .transparentBox {
+        width: 100%;
+        background-color: rgba(255, 255, 255,.8);
+    }
+
+/*TESTIMONIALS*/
+
+.testimonials {
+    text-align: center;
+    padding-top: 5%;
+    width: 100%;
+    height: 75%;
+    background-color: white;
+}
+
+.testimonials h2 {
+        font-size: 4em;
+        font-weight: 600;
+}
+
+.customerImg {
+    height: 250px;
+    width: 280px;
+    border-radius: 50%;
+}
+
+.customerName {
+    color: black;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.customerJob {
+    color: gray;
+
+}
+
+.star {
+    width: 15%;
+}
+
+.testimonials p{
+    padding-top: 1em;
+    margin: 0 20% 0;
+    font-style: italic;
+}
+
+.quotesBackground {
+    background: url(https://images.squarespace-cdn.com/content/v1/5b0b65b8f407b4a4414db2ee/0e6879f3-f0cd-4178-99ca-c9df5304fb33/quotation-mark3.png) no-repeat 50%;
+    background-size: 30%;
+    height: 50%;
+   
+}
+
+.transparentBox2 {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .96);
+}
